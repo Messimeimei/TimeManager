@@ -1,0 +1,101 @@
+/* 中间的通栏 */
+.container {
+    margin-top: 100px;
+    width: 100%;
+    height: 750px;
+    background-image: linear-gradient(to bottom, #8e8e8e, #4e4e4e);
+}
+
+/* 左边展示部分 */
+.show {
+    margin-left: 100px;
+    float: left;
+    height: 750px;
+    width: 685px;
+    background: url('../images/行走的黑白车.jpg') no-repeat rgba(255, 255, 255, 0.2);
+    background-size: 685px 750px;
+
+}
+
+.show .title {
+    margin: 223px auto auto;
+    width: 300px;
+    height: 50px;
+}
+
+.show .title img {
+    float: left;
+    height: 50px;
+    width: 54px;
+}
+
+.show .title h1 {
+    position: relative;
+    top: 7px;
+    left: 10px;
+    font: oblique 32px 'Times New Roman';
+}
+
+.show .intro {
+    text-align: center;
+    margin-top: 24px;
+    font: 700 oblique 20px 'Times New Roman';
+    color: rgb(244, 240, 240);
+}
+
+/* 右边登录部分 */
+.login-box {
+    margin-right: 100px;
+    margin-left: 50px;
+    float: right;
+    height: 750px;
+    width: 750px;
+}
+
+.login-form {
+    margin-top: 124px;
+    margin-left: 104px;
+    width: 500px;
+    height: 440px;
+    background: transparent;
+}
+
+.login-box .login-form h1 {
+    font: 32px '楷体';
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.login-box .login-form .small {
+    font: 24px '楷体';
+    color: #fff;
+}
+
+.login-box .login-form input {
+    margin-bottom: 25px;
+    width: 380px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+}
+
+
+.login-box .login-form .confirm {
+    width: 140px;
+    height: 40px;
+    background-color: #525454;
+    color: #fff;
+    font: 13px "楷体";
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-form a {
+    color: #fff;
+    font-family: "楷体", "Rage Italic";
+    text-decoration: underline;
+}

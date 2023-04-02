@@ -1,0 +1,101 @@
+/* 信息介绍展示部分 */
+
+.main-box {
+    margin-top: 100px;
+    width: 100%;
+    height: 730px;
+    background-image: linear-gradient(to bottom, #FFFFFF, #000000);
+}
+
+/* 文字介绍 */
+.main-box .text {
+    float: left;
+    margin-top: 51px;
+    margin-left: 380px;
+    padding-left: 24px;
+    width: 431px;
+    height: 457px;
+    background-color: #4B4952;
+    border-radius: 8px;
+}
+
+.main-box .text .one {
+    font: 400 normal 18px '楷体';
+    color: #000000;
+    text-indent: 3em;
+}
+
+.main-box .text .two {
+    font: 400 normal 24px '楷体';
+    color: #fff;
+}
+
+/* 图片介绍 */
+.img {
+    float: left;
+    margin-top: 51px;
+    margin-left: 60px;
+    width: 431px;
+    height: 457px;
+    border-radius: 8px;
+}
+
+.img img {
+    width: 431px;
+    height: 457px;
+    border-radius: 8px;
+}
+
+/* 开始使用 */
+.s-use {
+    float: left;
+    margin-top: 28px;
+    margin-left: 462px;
+    width: 802px;
+    height: 156px;
+    background-color: #6d6d6d;
+}
+
+.s-use .unique,
+.clean,
+.statistics {
+    font: normal oblique 24px '楷体';
+}
+
+.s-use .unique {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.s-use .clean {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 37px;
+}
+
+.s-use .statistics {
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 37px;
+}
+
+.s-use button {
+    position: relative;
+    top: 50px;
+    left: 128px;
+    width: 140px;
+    height: 28px;
+    background-color: #161513;
+    font: normal 13px "楷体";
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+}
+
+.s-use button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0px 0px 15px 2px rgb(190, 225, 255);
+}
