@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    登录
+{% endblock %}
+{% block body %}
+    <div class="container">
+        <div class="show">
+            <div class="title">
+                <img src="../static/images/logo.png" alt="">
+                <h1>TimeManager</h1>
+            </div>
+            <p class="intro">
+                A time management application <br>
+                that helps you record, manage, visualize, <br>
+                and statistically analyze
+            </p>
+        </div>
+        <div class="login-box">
+            <form action="" class="login-form">
+                <h1>
+                    注册<br>
+                    <span class="small">开启你的时间管理之旅</span>
+                </h1>
+                <span class="small">账号</span><br>
+                <input type="text"><br>
+                <span class="small">密码</span><br>
+                <input type="password"><br>
+                <span class="small">密码</span><br>
+                <input type="password"><br>
+                <input class="confirm" type="submit" value="确定">
+
+            </form>
+        </div>
+    </div>
+{% endblock %}
