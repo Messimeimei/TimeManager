@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+
+    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+
+    -webkit-transition-delay: 9999s;
+
+}
+
+/* 顶部导航栏 */
+.top-nav {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #f2ecec;
+}
+
+/* 图标与文字 */
+.top-nav img {
+    position: absolute;
+    line-height: 100px;
+    top: 20px;
+    left: 39px;
+    width: 54px;
+    height: 50px;
+}
+
+.top-nav span {
+    display: inline-block;
+    position: absolute;
+    top: 26px;
+    left: 110px;
+    font: 700 32px "Times New Roman";
+    font-style: oblique;
+    width: 181px;
+    height: 37px;
+}
+
+/* 多个选项 */
+.choice {
+    position: absolute;
+    right: 120px;
+    height: 100px;
+}
+
+.choice li {
+    float: left;
+    margin-left: 60px;
+    margin-top: 38px;
+    line-height: 100px;
+}
+
+.choice li a {
+    display: block;
+    font: 700 16px '宋体';
+    color: rgba(14, 10, 10, 0.85);
+}
+
+.choice li a:hover {
+    color: rgba(245, 201, 3, 0.863);
+}
+
+
+/* 信息介绍展示部分 */
+
+.main-box {
+    margin-top: 100px;
+    width: 100%;
+    height: 730px;
+    background-image: linear-gradient(to top, #FFFFFF, #000000);
+}
+
+/* 底部栏 */
+.footer {
+    width: 100%;
+    height: 250px;
+    background-image: radial-gradient(ellipse farthest-corner at left bottom, #ffffff, #aaaaaa, #000000);
+}
+
+/* 图标与文字 */
+.footer img {
+    position: relative;
+    top: 20px;
+    left: 39px;
+    width: 54px;
+    height: 50px;
+}
+
+.footer span {
+    position: relative;
+    top: 10px;
+    left: 50px;
+    font: 700 32px "Times New Roman";
+    font-style: oblique;
+    width: 181px;
+    height: 37px;
+}
+
+.footer .speak {
+    position: relative;
+    top: 10px;
+    left: 800px;
+    font-style: oblique;
+    width: 181px;
+    height: 37px;
+    font: 600 oblique 24px '楷体';
+    color: #d8d3d3;
+}
+
+/* 相关连接 */
+.links {
+    position: relative;
+    top: 25px;
+    left: -20px;
+    width: 1080px;
+}
+
+.links dl {
+    float: left;
+    top: 25px;
+    margin-left: 130px;
+    font: 700 24px;
+}
+
+.links dt {
+    font: 700 24px '楷体';
+}
+
+.links dl dd a {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    color: #1a1919;
+    font: 700 12px '楷体';
+}
+
+.links dl dd a:hover {
+    color: rgba(245, 201, 3, 0.863);
+}

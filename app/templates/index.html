@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    首页
+{% endblock %}
+
+{% block body %}
+    <div class="main-box">
+        <div class="text">
+            <h1>欢迎使用TimeManager</h1>
+            <br>
+            <p class="one">
+                TimeManager是一款专注于时间管理的应用，它高效简洁，能帮助你提升效率，但它并非适合所有用户，
+                只有本身自律但又缺少合适的时间管理工具的人才能用好它。借助它你可以实现：<br><br>
+            </p>
+            <p class="two">
+                ·对每天所做事情的详细记录<br><br>
+
+                ·以可视化的方式掌握各个事项所花费的时间,占比<br><br>
+
+                ·智能统计你的时间使用特征，助力养成良好习惯<br><br>
+            </p>
+        </div>
+        <div class="img">
+            <img src="../static/images/show1.png" alt="">
+        </div>
+        <div class="s-use">
+            <span class="unique">独特的记录方法</span>
+            <span class="clean">简洁的展示手段</span>
+            <span class="statistics">全新的统计方式</span>
+            <button>
+                开始使用
+            </button>
+        </div>
+    </div>
+{% endblock %}
